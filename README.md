@@ -1,78 +1,65 @@
-\# 🎮 Tic-Tac-Toe with Streamlit
+# Tic-Tac-Toe Game
 
-
-
-A fun and interactive \*\*Tic-Tac-Toe\*\* game built using \*\*Python 3\*\* and \*\*Streamlit\*\*.  
-
-You can play \*\*Player vs Player\*\* or challenge the \*\*Computer\*\* with three difficulty modes:  
-
-\- 🟢 \*\*Easy\*\* – Random moves  
-
-\- 🟡 \*\*Normal\*\* – Smart but not perfect  
-
-\- 🔴 \*\*Unbeatable\*\* – Uses Minimax algorithm  
-
-
+A simple Tic-Tac-Toe game built with Python and Tkinter.  
+Play against another player or against the computer with three difficulty levels: **Easy**, **Normal**, and **Unbeatable (Minimax Algorithm)**.
 
 ---
 
-
-
-\## 🚀 Features
-
-\- Interactive \*\*3x3 grid\*\* with clear rows \& columns  
-
-\- Play \*\*PvP\*\* or \*\*PvC (Computer)\*\*  
-
-\- Select difficulty: Easy, Normal, or Unbeatable  
-
-\- Tracks \*\*wins, losses, and draws\*\*  
-
-\- Fully responsive UI built in Streamlit  
-
-
+## Features
+- Player vs Player mode
+- Player vs Computer mode
+  - Easy: Random moves
+  - Normal: Mix of random and smart moves
+  - Unbeatable: Minimax algorithm ensures the computer never loses
+- Clear, user-friendly GUI built with Tkinter
+- Reset button to start a new game
 
 ---
 
+## Requirements
 
-
-\## 📦 Installation
-
-
-
-Clone the repository and set up a virtual environment:
-
-
+Make sure you have Python 3 installed. Install the dependencies using:
 
 ```bash
+pip install -r requirements.txt
+```
 
-git clone https://github.com/yourusername/tic-tac-toe-streamlit.git
+---
 
-cd tic-tac-toe-streamlit
+## Running the Game
 
+### On Windows:
+```bash
+python app.py
+```
 
+### On Linux / Mac:
+```bash
+python3 app.py
+```
 
-\# Create virtual environment
+---
 
-python -m venv venv
+## Setup Virtual Environment (Optional but Recommended)
 
-
-
-\# Activate venv
-
-\# On Windows
-
-venv\\Scripts\\activate
-
-\# On Linux/Mac
-
+```bash
+python3 -m venv venv
+# On Windows
+venv\Scripts\activate
+# On Linux / Mac
 source venv/bin/activate
 
-
-
-\# Install dependencies
-
 pip install -r requirements.txt
+```
 
+---
 
+## Project Structure
+```
+├── app.py       # Main game file
+├── requirements.txt     # Python dependencies
+├── README.md            # Project documentation
+```
+
+---
 
