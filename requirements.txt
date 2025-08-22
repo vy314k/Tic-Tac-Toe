@@ -1,0 +1,4 @@
+Flask>=2.2,<3
+gunicorn>=20.1.0        # recommended for Linux/Unix production
+waitress>=2.1.2         # recommended if deploying on Windows
+python-dotenv>=1.0.0    # optional: load .env config locally / on server
