@@ -63,3 +63,8 @@ pip install -r requirements.txt
 
 ---
 
+
+## Live Demo
+You can play the game here: [Tic-Tac-Toe Live](https://tic-tac-toe-1-bfab.onrender.com/)
+
+
